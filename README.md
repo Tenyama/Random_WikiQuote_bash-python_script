@@ -26,8 +26,21 @@ e.g: `random_quote "Terry A. Davis"`
 >[!NOTE]
 > The author/topic have to be exact, the example above would not work with `"Terry Davis"`
 
-# Known issues
-Sometimes it fetch the source if it was written as a line in the "Quotes" section
+# Dependencies
+
+This script requires the following tools to be installed:
+
+## Required
+- **bash** — shell interpreter
+- **curl** — for HTTP requests
+- **jq** — for JSON parsing
+- **python3** — for HTML parsing
+    - Uses only the Python standard library:
+      `sys`, `re`, `html.parser`
+- **shuf** — for random selection (GNU coreutils)
+
+## Optional
+- **cowsay** or `python-cowsay` if piping the quote into a cowsay-style program. (My favorite usage)
 
 # Reference
 [natetyler/wikiquotes-api](https://github.com/natetyler/wikiquotes-api)  
