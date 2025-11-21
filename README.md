@@ -1,5 +1,6 @@
 # Random_WikiQuote_bash_script
 Bash script that fetch a random quote of some person from WikiQuote then use Python to clean them up for outputting
+
 All code logic is based on [natetyler/wikiquotes-api](https://github.com/natetyler/wikiquotes-api)  
 
 This was mostly converted to bash by AI to make a fun tool kinda like `fortune`
